@@ -1,19 +1,80 @@
-# Ashi4U Company Website
+# MAK4U Technologies Website
 
-Production-ready static website for GitHub Pages.
+Official corporate website for **MAK4U Technologies**.
 
-## Publish
+MAK4U Technologies builds premium software for business, trading, analytics,
+AI, productivity, and future digital products.
 
-Upload all files in this folder to the root of the `mafiyam204-rgb.github.io` repository and commit them to the `main` branch. In repository **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
+## Website
 
-The site will be available at <https://mafiyam204-rgb.github.io>.
+### Production
+
+<https://mak4u.tech>
+
+The production website is hosted separately on MAK4U Technologies' web hosting.
+
+### Staging / Preview
+
+<https://mafiyam204-rgb.github.io>
+
+GitHub Pages is used as the development preview and staging environment before
+approved website releases are deployed to the production domain.
+
+## Product Ecosystem
+
+MAK4U Technologies develops and maintains products including:
+
+- **POS4U ERP** — Enterprise POS and ERP platform
+- **TJ4U** — Professional trading journal
+- **Chart4U** — Trading analysis platform
+- **TradePro4U** — Professional trading tools
+- **TradePro AI** — AI-powered trading technology
+- **Wird4U** — Digital Islamic application
+
+Dedicated POS4U ERP website:
+
+<https://pos4uerp.online>
+
+## Development Workflow
+
+1. Update the website source in this repository.
+2. Commit changes to the `main` branch.
+3. Review the deployment through GitHub Pages.
+4. Verify desktop and mobile presentation, content, links, and accessibility.
+5. Deploy the approved release to <https://mak4u.tech>.
+
+GitHub Pages deployment uses:
+
+- Branch: `main`
+- Folder: `/ (root)`
 
 ## Files
 
-- `index.html` — main company website
-- `styles.css` — responsive visual system
-- `script.js` — navigation, reveal animation and current year
+- `index.html` — main MAK4U Technologies corporate website
+- `styles.css` — responsive visual and design system
+- `script.js` — navigation, interactions, reveal animations, and current year
 - `privacy.html` — website privacy notice
-- `favicon.svg` — Ashi4U browser icon
+- `favicon.svg` — MAK4U Technologies browser icon
 
-No build command or external dependency is required.
+## Architecture
+
+The website is intentionally lightweight and requires no build pipeline or
+external framework.
+
+Core technologies:
+
+- HTML5
+- CSS3
+- JavaScript
+- SVG
+
+This keeps the corporate website fast, portable, maintainable, and easy to
+deploy across GitHub Pages and standard web hosting.
+
+## Brand
+
+**MAK4U Technologies**
+
+Business · Trading · Intelligence
+
+<https://mak4u.tech>
