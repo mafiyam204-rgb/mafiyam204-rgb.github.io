@@ -24,14 +24,15 @@ approved website releases are deployed to the production domain.
 
 MAK4U Technologies develops and maintains products including:
 
-- **POS4U ERP** — Enterprise POS and ERP platform
+- **POS4U MINI** — POS, billing, inventory and business management for small and growing businesses
+- **POS4U ERP Enterprise** — Enterprise POS, ERP, accounting and multi-user business management platform
 - **TJ4U** — Professional trading journal
 - **Chart4U** — Trading analysis platform
 - **TradePro4U** — Professional trading tools
 - **TradePro AI** — AI-powered trading technology
 - **Wird4U** — Digital Islamic application
 
-Dedicated POS4U ERP website:
+Dedicated POS4U ERP Enterprise website:
 
 <https://pos4uerp.online>
 
