@@ -1962,3 +1962,280 @@ footer {
     background: #081522;
   }
 }
+
+/* ==========================================================================
+   Business Software / Pricing
+   ========================================================================== */
+
+.business-software-block {
+  margin-bottom: 82px;
+  scroll-margin-top: calc(var(--header-height) + 26px);
+}
+
+.business-heading {
+  margin: 8px 0 30px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
+  gap: 42px;
+  align-items: end;
+}
+
+.business-heading h3,
+.ecosystem-heading h3 {
+  margin: 6px 0 0;
+  color: var(--ink-strong);
+  font-size: clamp(32px, 3.4vw, 48px);
+  line-height: 1.08;
+  letter-spacing: -2px;
+}
+
+.business-heading > p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.business-product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.business-product {
+  min-height: 720px;
+}
+
+.product-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.product-topline .status {
+  margin-top: 0;
+  text-align: right;
+}
+
+.price-panel {
+  margin: 18px 0 6px;
+  padding: 18px;
+  border: 1px solid rgba(93, 214, 255, 0.15);
+  border-radius: 16px;
+  background: rgba(2, 11, 20, 0.34);
+}
+
+.price-panel-label {
+  margin-bottom: 12px;
+  color: #8fa9c0;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1.15px;
+  text-transform: uppercase;
+}
+
+.price-row.three {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.price-row > div {
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.price-row span,
+.price-row strong {
+  display: block;
+}
+
+.price-row span {
+  color: var(--muted);
+  font-size: 9px;
+  line-height: 1.35;
+}
+
+.price-row strong {
+  margin-top: 6px;
+  color: var(--ink-strong);
+  font-size: 16px;
+}
+
+.price-row .recommended {
+  border-color: rgba(114, 224, 164, 0.32);
+  background: rgba(114, 224, 164, 0.055);
+}
+
+.price-row .recommended span,
+.price-row .recommended strong {
+  color: #7de6ac;
+}
+
+.lan-ladder {
+  margin-top: 12px;
+  padding-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.lan-ladder span {
+  width: 100%;
+  color: #8fa9c0;
+  font-weight: 780;
+  text-transform: uppercase;
+  letter-spacing: .7px;
+}
+
+.lan-ladder b {
+  color: var(--ink);
+  font-weight: 720;
+}
+
+.erp-price-head,
+.erp-price-list > div {
+  display: grid;
+  grid-template-columns: 1.35fr repeat(3, .75fr);
+  gap: 8px;
+  align-items: center;
+}
+
+.erp-price-head {
+  margin-bottom: 5px;
+  color: #6f879e;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: .7px;
+  text-transform: uppercase;
+  order: -1;
+}
+
+.erp-price-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.erp-price-list > div {
+  padding: 8px 0;
+  border-top: 1px solid var(--line);
+  font-size: 11px;
+}
+
+.erp-price-list > div:first-child {
+  border-top: 0;
+}
+
+.erp-price-list span {
+  color: var(--muted);
+}
+
+.erp-price-list b,
+.erp-price-list strong {
+  color: var(--ink-strong);
+  font-size: 11px;
+}
+
+.erp-price-list strong {
+  color: #72e0a4;
+}
+
+.custom-quote {
+  margin-top: 10px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.custom-quote strong {
+  color: var(--accent-bright);
+}
+
+.commercial-note {
+  margin-top: 20px;
+  padding: 22px 24px;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 26px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(10, 25, 42, 0.72);
+}
+
+.commercial-note strong {
+  color: #72e0a4;
+  font-size: 13px;
+}
+
+.commercial-note p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.ecosystem-heading {
+  margin: 80px 0 28px;
+}
+
+.card-erp {
+  right: 1%;
+  top: 46%;
+}
+
+@media (max-width: 1000px) {
+  .business-heading,
+  .commercial-note {
+    grid-template-columns: 1fr;
+  }
+
+  .business-product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .business-product {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 620px) {
+  .product-topline {
+    align-items: flex-start;
+  }
+
+  .price-row.three {
+    grid-template-columns: 1fr;
+  }
+
+  .erp-price-head,
+  .erp-price-list > div {
+    grid-template-columns: 1.3fr repeat(3, .8fr);
+    gap: 5px;
+  }
+
+  .erp-price-list b,
+  .erp-price-list strong,
+  .erp-price-list span {
+    font-size: 9px;
+  }
+
+  .commercial-note {
+    padding: 18px;
+  }
+
+  .card-erp {
+    right: 0;
+    top: 49%;
+  }
+}
